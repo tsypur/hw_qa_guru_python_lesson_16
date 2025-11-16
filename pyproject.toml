@@ -1,0 +1,23 @@
+[project]
+name = "hw_qa_guru_python_lesson_16"
+version = "0.1.0"
+description = "hw qa guru python lesson 16"
+authors = [
+    {name = "Natalya Krupnova",email = "someemail@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13,<4.0"
+dependencies = [
+    "pytest (==8.4.2)",
+    "selene (==2.0.0rc9)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "pylint (>=4.0.2,<5.0.0)"
+]
